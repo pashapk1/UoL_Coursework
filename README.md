@@ -23,31 +23,39 @@ Q2b - Age
 Values numeric
 
 Q87a - I have felt cheerful and in good spirits [...which is the closest to how you have been feeling over the last two weeks]
+
 Q87b - I have felt calm and relaxed [...which is the closest to how you have been feeling over the last two weeks]
+
 Q87c - I have felt active and vigorous [...which is the closest to how you have been feeling over the last two weeks]
+
 Q87d - I woke up feeling fresh and rested [...which is the closest to how you have been feeling over the last two weeks]
+
 Q87e - My daily life has been filled with things that interest me [...which is the closest to how you have been feeling over the last two weeks]
 
 Values for variables Q87a to Q87e
 
-All of the time.
-Most of the time
-More than half of the time
-Less than half of the time
-Some of the time
-At no time
+1. All of the time.
+2. Most of the time
+3. More than half of the time
+4. Less than half of the time
+5. Some of the time
+6. At no time
+
 Q90a - At my work I feel full of energy [Please tell me how often you feel this way...]
+
 Q90b - I am enthusiastic about my job [Please tell me how often you feel this way...]
+
 Q90c - Time flies when I am working [Please tell me how often you feel this way...]
+
 Q90f - In my opinion, I am good at my job [Please tell me how often you feel this way...]
 
 Values for variables Q90a to Q90f
 
-Always.
-Most of the time
-Sometimes
-Rarely
-Never
+1. Always.
+2. Most of the time
+3. Sometimes
+4. Rarely
+5. Never
 
 ## Part 2
 
@@ -72,7 +80,7 @@ Important note: the target attribute G3 has a strong correlation with attributes
 
 Attribute Information:
 
-### Attributes for both student-mat.csv (Math course) and student-por.csv (Portuguese language course) datasets:
+## Attributes for both student-mat.csv (Math course) and student-por.csv (Portuguese language course) datasets:
 1 school - student's school (binary: 'GP' - Gabriel Pereira or 'MS' - Mousinho da Silveira)
 2 sex - student's sex (binary: 'F' - female or 'M' - male)
 3 age - student's age (numeric: from 15 to 22)
@@ -103,7 +111,7 @@ Attribute Information:
 28 Walc - weekend alcohol consumption (numeric: from 1 - very low to 5 - very high)
 29 health - current health status (numeric: from 1 - very bad to 5 - very good)
 30 absences - number of school absences (numeric: from 0 to 93)
-### these grades are related with the course subject, Math or Portuguese:
+## these grades are related with the course subject, Math or Portuguese:
 31 G1 - first period grade (numeric: from 0 to 20)
 31 G2 - second period grade (numeric: from 0 to 20)
 32 G3 - final grade (numeric: from 0 to 20, output target)
@@ -132,7 +140,7 @@ The data is related with direct marketing campaigns of a Portuguese banking inst
 Attribute Information:
 
 Input variables:
-### bank client data: 1 - age (numeric)
+## bank client data: 1 - age (numeric)
 2 - job : type of job (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')
 3 - marital : marital status (categorical: 'divorced','married','single','unknown'; note: 'divorced' means divorced or widowed)
 4 - education (categorical:
